@@ -20,7 +20,6 @@ func init() {
 	if err != nil {
 		log.Printf("Error loading .env file: %v", err)
 	}
-
 	jwtKey = []byte(os.Getenv("JWT_SECRET_KEY"))
 }
 

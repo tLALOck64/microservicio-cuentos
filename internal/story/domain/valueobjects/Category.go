@@ -5,13 +5,13 @@ import "fmt"
 type Category string
 
 const (
-	Legends      Category = "legends"
-	Fables       Category = "fables"
-	Nature       Category = "nature"
-	Daily        Category = "daily_life"
-	Historical   Category = "historical"
-	Mythological Category = "mythological"
-	Educational  Category = "educational"
+	Legends      Category = "leyenda"
+	Fables       Category = "fábula"
+	Nature       Category = "naturaleza"
+	Daily        Category = "vida_diaria"
+	Historical   Category = "histórico"
+	Mythological Category = "mito"
+	Educational  Category = "educativo"
 )
 
 func NewCategory(value string) (Category, error) {

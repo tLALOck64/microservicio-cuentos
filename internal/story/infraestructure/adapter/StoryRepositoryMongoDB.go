@@ -120,3 +120,39 @@ func (r *StoryRepositoryMongoDB) Get() ([]*entities.Story, error) {
 
 	return stories, nil
 }
+
+// GetByCategory obtiene todos los cuentos por categoría
+func (r *StoryRepositoryMongoDB) GetByCategory(category string) ([]*entities.Story, error) {
+	collection := r.DB.Database.Collection("stories")
+
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
+
+	filter := bson.M{
+		"category": category,
+		"status":   bson.M{"$ne": "inactive"},
+	}
+
+	cursor, err := collection.Find(ctx, filter)
+	if err != nil {
+		return nil, fmt.Errorf("error al obtener cuentos por categoría: %w", err)
+	}
+	defer cursor.Close(ctx)
+
+	var modelos []models.StoryModel
+	if err = cursor.All(ctx, &modelos); err != nil {
+		return nil, fmt.Errorf("error al decodificar cuentos: %w", err)
+	}
+
+	stories := make([]*entities.Story, len(modelos))
+	for i, model := range modelos {
+		story, err := models.ToDomainStory(&model)
+		if err != nil {
+			log.Printf("Error al convertir cuento %s: %v", model.ID.Hex(), err)
+			continue
+		}
+		stories[i] = story
+	}
+
+	return stories, nil
+}

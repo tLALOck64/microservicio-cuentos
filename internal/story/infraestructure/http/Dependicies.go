@@ -33,3 +33,8 @@ func SetUpGetById()*controllers.GetByIdController{
 	getByIdUseCase := application.NewGetByIdUseCase(StoryRepository)
 	return controllers.NewGetByIdController(getByIdUseCase)
 }
+
+func SetUpGetByCategory() *controllers.GetByCategoryController {
+	getByCategoryUseCase := application.NewGetByCategoryUseCase(StoryRepository)
+	return controllers.NewGetByCategoryController(getByCategoryUseCase)
+}

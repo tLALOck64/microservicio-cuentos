@@ -1,0 +1,252 @@
+{
+  "Success": true,
+  "Message": "Successfully retrieved story's",
+  "Data": [
+    {
+      "ID": "687d88ee8ce3ceb1ec1df5e6",
+      "Title": "Be’cu y guela’ (La tortuga y la noche)",
+      "Description": "Un cuento tradicional zapoteco sobre una tortuga que busca la luz en la noche para ayudar a su amiga iguana.",
+      "Language": "zapoteco",
+      "Category": "leyenda",
+      "ContentJSON": {
+        "parrafos": [
+          "Bixho’zhe (Hola), cuenta la historia que en un pueblo zapoteco, bajo la *guela’* (noche), vivía una tortuga llamada *Be’cu* (tortuga). Era sabia y lenta, con un caparazón duro como la *bichuga* (cáscara dura). Cada noche, *Be’cu* miraba al cielo y veía la *biaani’* (luz) de las estrellas, que brillaban como pequeños fuegos (*xhiga*).",
+          "Una noche, *Be’cu* encontró a su amiga *Bidxa’ña* (iguana), quien estaba triste. *Naxhi’ la?* (¿Cómo estás?), preguntó *Be’cu*. *Bidxa’ña* respondió: *Qué naxhi’ la* (No estoy bien). Había perdido su camino a casa porque la *guela’* (noche) era muy oscura, sin *biaani’* (luz) suficiente.",
+          "*Be’cu* decidió ayudar. *Riene lu didxazá la?* (¿Entiendes zapoteco?), le preguntó a la *guela’* (noche), esperando que la noche respondiera. La *guela’* susurró con el *bi* (viento): *tobi biaani’* (una luz) brillará si buscas en el río de *nisa* (agua).",
+          "Caminaron juntas hacia el río. Allí, *Be’cu* vio un reflejo de la luna, una *biaani’* (luz) plateada en la *nisa* (agua). *Bidxa’ña* se alegró, pues esa luz le mostró el camino. *Cayaca nanda’ya’* (Tengo calor), dijo *Bidxa’ña*, emocionada por la ayuda de su amiga.",
+          "Desde entonces, cada *guela’* (noche), *Be’cu* y *Bidxa’ña* se sientan junto al río, agradeciendo a la *biaani’* (luz) de la luna. La *guela’* (noche) les enseñó que siempre hay una *tobi* (una) solución si buscas con el corazón (*la’dxi*). ¡Y así, la tortuga y la iguana vivieron felices en su pueblo zapoteco!"
+        ]
+      },
+      "Status": "draft"
+    },
+    {
+      "ID": "687d8b937c3b3455e0f52663",
+      "Title": "Balamil y ujkum (El jaguar y el arcoíris)",
+      "Description": "Un cuento tseltal sobre un jaguar que sigue un arcoíris para encontrar agua en la selva.",
+      "Language": "tseltal",
+      "Category": "leyenda",
+      "ContentJSON": {
+        "parrafos": [
+          "En una selva tseltal, vivía un *balamil* (jaguar) fuerte y valiente. Cada día, buscaba *ha* (agua) para beber, pero el río estaba seco. Una mañana, vio un *ujkum* (arcoíris) brillando en el cielo, con colores que parecían señalar un camino.",
+          "El *balamil* dijo: *K’an* (quiero) encontrar esa *ha* (agua). Caminó por el *be* (camino) que el *ujkum* (arcoíris) señalaba. Encontró *jun* (una) *na* (casa) donde vivía una anciana sabia.",
+          "La anciana le dijo: ‘*Balamil*, el *ujkum* (arcoíris) te guía al *ha* (agua) sagrada. Sigue el *be* (camino) hasta el final.’ El jaguar agradeció y corrió por el *be* (camino), viendo el *ujkum* (arcoíris) brillar más fuerte.",
+          "Al llegar al final del *be* (camino), el *balamil* encontró un manantial de *ha* (agua) cristalina. Bebió y rugió de alegría. Desde entonces, los tseltal dicen que el *ujkum* (arcoíris) es un puente que lleva al *ha* (agua) para quienes lo buscan con el corazón."
+        ]
+      },
+      "Status": "draft"
+    },
+    {
+      "ID": "687d8bd87c3b3455e0f52664",
+      "Title": "Pejpen y ajan (La mariposa y el maíz)",
+      "Description": "Un cuento tseltal sobre una mariposa que ayuda a una mazorca a crecer en un campo sagrado.",
+      "Language": "tseltal",
+      "Category": "leyenda",
+      "ContentJSON": {
+        "parrafos": [
+          "En un campo tseltal, una *pejpen* (mariposa) de colores volaba sobre un *yal* (pequeño) *ajan* (mazorca). El *ajan* estaba triste porque no crecía. La *pejpen* preguntó: *K’an* (¿quieres) que te ayude?",
+          "El *ajan* respondió: ‘Sí, pero soy *yal* (pequeño) y necesito *ha* (agua).’ La *pejpen* voló y llamó a *chib* (dos) nubes. Las nubes trajeron lluvia, y el *ajan* (mazorca) comenzó a crecer.",
+          "Días después, el *ajan* ya tenía *oxib* (tres) hojas verdes. La *pejpen* (mariposa) seguía cuidándolo, espantando a una *xanich* (hormiga) que quería comerlo. El *ajan* dijo: ‘Gracias, *pejpen*, ahora soy fuerte.’",
+          "Cuando el *ajan* (mazorca) creció grande, los tseltal lo cosecharon y lo usaron para hacer *oxom* (tamal). Desde entonces, dicen que cada *pejpen* (mariposa) protege el *ajan* (maíz), el corazón de su pueblo."
+        ]
+      },
+      "Status": "draft"
+    },
+    {
+      "ID": "687d8c087c3b3455e0f52665",
+      "Title": "Lo’bal y tumut (El sueño del guajolote)",
+      "Description": "Un cuento tseltal sobre un guajolote que sueña con volar como un zopilote.",
+      "Language": "tseltal",
+      "Category": "leyenda",
+      "ContentJSON": {
+        "parrafos": [
+          "En un pueblo tseltal, un *tumut* (guajolote) vivía cerca de una *na* (casa). Cada noche, en su *lo’bal* (sueño), veía a un *p’irich* (zopilote) volando alto. El *tumut* dijo: *K’an* (quiero) volar como él.",
+          "Una noche, en su *lo’bal* (sueño), el *tumut* (guajolote) pidió ayuda a la luna. La luna le dijo: ‘*Tumut*, tienes *jo’ib* (cinco) plumas fuertes. Úsalas.’ El *tumut* intentó volar, pero solo saltó sobre un *wuale’* (comal).",
+          "El *p’irich* (zopilote) lo vio y se rió: ‘*Tumut*, no necesitas volar. Tu *tumut* (guajolote) corazón es valiente.’ El *tumut* entendió y, en su *lo’bal* (sueño), soñó con correr por el *be* (camino).",
+          "Desde entonces, los tseltal cuentan que el *tumut* (guajolote) no vuela, pero su *lo’bal* (sueño) lo hace libre. Y cada *jo’ib* (cinco) noches, el *tumut* mira al *p’irich* (zopilote) y sonríe."
+        ]
+      },
+      "Status": "draft"
+    },
+    {
+      "ID": "687d92cefd9e63f7da81ff4d",
+      "Title": "Bidxu y bi (El conejo y el viento)",
+      "Description": "Una fábula zapoteca sobre un conejo astuto que engaña al viento.",
+      "Language": "zapoteco",
+      "Category": "fábula",
+      "ContentJSON": {
+        "parrafos": [
+          "En un pueblo zapoteco, un *bidxu* (conejo) vivía cerca de un río de *nisa* (agua). El *bi* (viento) soplaba fuerte, diciendo: ‘Soy el más rápido.’ El *bidxu* lo desafió: *Bixho’zhe* (hola), vamos a competir.",
+          "El *bi* aceptó, pero el *bidxu* (conejo) escondió *tobi* (uno) caparazón de *bichuga* (cáscara dura) en el camino. Cuando el *bi* (viento) sopló, la *bichuga* rodó más rápido, engañándolo.",
+          "El *bi* (viento) se cansó de perseguir. El *bidxu* dijo: ‘Con mi *la’dxi* (corazón) astuto, gané.’ Los zapotecos aprendieron que la inteligencia vence la fuerza."
+        ]
+      },
+      "Status": "draft"
+    },
+    {
+      "ID": "687d92e6fd9e63f7da81ff4e",
+      "Title": "Bidxa’ña y be’cu (La iguana y la tortuga)",
+      "Description": "Una fábula zapoteca sobre la paciencia de una tortuga frente a la vanidad de una iguana.",
+      "Language": "zapoteco",
+      "Category": "fábula",
+      "ContentJSON": {
+        "parrafos": [
+          "*Bixho’zhe* (hola), dijo una *bidxa’ña* (iguana) presumiendo su piel brillante junto a un *yaga* (árbol). Una *be’cu* (tortuga) la vio y dijo: ‘La belleza no lo es todo.’",
+          "La *bidxa’ña* desafió a la *be’cu* a una carrera hasta *chupa* (dos) *yaga* (árboles). La *bidxa’ña* corrió rápido, pero se detuvo a descansar, confiada.",
+          "La *be’cu* (tortuga) avanzó lento pero sin parar. Llegó primero al *chupa* (segundo) *yaga*. La *bidxa’ña* aprendió: con *la’dxi* (corazón) paciente, se gana."
+        ]
+      },
+      "Status": "draft"
+    },
+    {
+      "ID": "687d9331c14c2860c6f5c83f",
+      "Title": "Zaa y guela’ (El origen del maíz)",
+      "Description": "Un mito zapoteco sobre cómo el maíz nació en la noche.",
+      "Language": "zapoteco",
+      "Category": "mito",
+      "ContentJSON": {
+        "parrafos": [
+          "En la *guela’* (noche), los zapotecos no tenían comida. La luna, llena de *biaani’* (luz), preguntó: *Naxhi’ la?* (¿cómo estás?). Los humanos respondieron: ‘Hambrientos.’",
+          "La *guela’* (noche) llamó a *chona* (tres) estrellas. Juntas, sembraron una semilla brillante en la tierra, que se convirtió en *zaa* (maíz).",
+          "Desde entonces, el *zaa* (maíz) creció bajo la *biaani’* (luz) de la *guela’* (noche). Los zapotecos agradecen al *zaa* como regalo de las estrellas."
+        ]
+      },
+      "Status": "draft"
+    },
+    {
+      "ID": "687d9348c14c2860c6f5c840",
+      "Title": "Xhiga y biaani’ (El fuego y la luna)",
+      "Description": "Un mito zapoteco sobre cómo la luna trajo el fuego a los humanos.",
+      "Language": "zapoteco",
+      "Category": "mito",
+      "ContentJSON": {
+        "parrafos": [
+          "Antes, los zapotecos vivían sin *xhiga* (fuego) y temblaban en la *guela’* (noche). La luna, con su *biaani’* (luz), vio su sufrimiento y bajó a la tierra.",
+          "La luna pidió a *tapa* (cuatro) rayos que compartieran su *biaani’* (luz). Los rayos crearon el *xhiga* (fuego), guardado en una *bichuga* (cáscara dura).",
+          "Desde entonces, el *dxi tapa* (cuarto) regalo de la luna fue el *xhiga* (fuego). Los zapotecos lo usan para cocinar y honrar la *biaani’* (luz)."
+        ]
+      },
+      "Status": "draft"
+    },
+    {
+      "ID": "687d9366c14c2860c6f5c841",
+      "Title": "Xheela’ y zaa (La mujer del mercado)",
+      "Description": "Una historia zapoteca sobre una mujer que defiende el maíz en el mercado.",
+      "Language": "zapoteco",
+      "Category": "histórico",
+      "ContentJSON": {
+        "parrafos": [
+          "En Juchitán, una *xheela’* (mujer) vendía *zaa* (maíz) en el mercado. Preguntaba: *Riene lu didxazá la?* (¿entiendes zapoteco?) a todos, orgullosa de su lengua.",
+          "Un día, alguien quiso cambiar el *zaa* por comida extraña. La *xheela’* ofreció *gaayu’* (cinco) puños de *zaa* y explicó: ‘El *zaa* es nuestra vida.’",
+          "Con su *la’dxi* (corazón), defendió el *zaa* (maíz). Desde entonces, los zapotecos recuerdan a la *xheela’* como guardiana de su cultura."
+        ]
+      },
+      "Status": "draft"
+    },
+    {
+      "ID": "687d9392c14c2860c6f5c842",
+      "Title": "Benda y nisa (El pescador y el río)",
+      "Description": "Una historia zapoteca sobre un pescador que protege el río de Juchitán.",
+      "Language": "zapoteco",
+      "Category": "histórico",
+      "ContentJSON": {
+        "parrafos": [
+          "Un pescador zapoteco cuidaba la *nisa* (agua) del río, llena de *benda* (peces). Cada día, pescaba *ga’dxi* (siete) *benda* para su pueblo, diciendo: *Cayaca nanda’ya’* (tengo calor).",
+          "Cuando extraños ensuciaron la *nisa* (agua), el pescador usó su *la’dxi* (corazón) para limpiarla. Reunió al pueblo y salvaron el río.",
+          "Hoy, los zapotecos honran al pescador por proteger la *nisa* (agua) y los *benda* (peces), recordando que la naturaleza es su hogar."
+        ]
+      },
+      "Status": "draft"
+    },
+    {
+      "ID": "687d93cfc14c2860c6f5c843",
+      "Title": "Tumut y xanich (El guajolote y la hormiga)",
+      "Description": "Una fábula tseltal sobre un guajolote y una hormiga que aprenden a cooperar.",
+      "Language": "tseltal",
+      "Category": "fábula",
+      "ContentJSON": {
+        "parrafos": [
+          "Un *tumut* (guajolote) vivía cerca de un río de *ha* (agua). Una *xanich* (hormiga) pidió ayuda: *K’an* (quiero) llevar comida a mi *na* (casa). El *tumut* la ignoró.",
+          "La *xanich* cargó *jun* (una) semilla sola. El *tumut* vio su esfuerzo y dijo: ‘Te ayudo.’ Juntos llevaron la semilla a la *na* (casa) de la *xanich*.",
+          "Desde entonces, el *tumut* (guajolote) y la *xanich* (hormiga) trabajan juntos. Los tseltal aprendieron que cooperar es mejor que ignorar."
+        ]
+      },
+      "Status": "draft"
+    },
+    {
+      "ID": "687d9431c14c2860c6f5c844",
+      "Title": "Pejpen y p’irich (La mariposa y el zopilote)",
+      "Description": "Una fábula tseltal sobre una mariposa humilde y un zopilote arrogante.",
+      "Language": "tseltal",
+      "Category": "fábula",
+      "ContentJSON": {
+        "parrafos": [
+          "Una *pejpen* (mariposa) volaba por un *be* (camino), siendo *yal* (pequeña). Un *p’irich* (zopilote) se burló: ‘Soy grande, tú eres *yal* (pequeña).’",
+          "La *pejpen* retó al *p’irich* a cruzar *chib* (dos) ríos. El *p’irich* voló alto, pero se cansó. La *pejpen* voló bajo y llegó primero.",
+          "El *p’irich* (zopilote) aprendió a respetar a la *yal* (pequeña) *pejpen* (mariposa). Los tseltal dicen: la humildad vence la arrogancia."
+        ]
+      },
+      "Status": "draft"
+    },
+    {
+      "ID": "687d9445c14c2860c6f5c845",
+      "Title": "Ha y ujkum (El origen del agua)",
+      "Description": "Un mito tseltal sobre cómo el arcoíris creó los ríos.",
+      "Language": "tseltal",
+      "Category": "mito",
+      "ContentJSON": {
+        "parrafos": [
+          "Antes, la tierra tseltal no tenía *ha* (agua). Los humanos pidieron: *K’an* (queremos) *ha* para vivir. El *ujkum* (arcoíris) escuchó desde el cielo.",
+          "El *ujkum* pintó *oxib* (tres) colores en la tierra, y de cada color nació un río de *ha* (agua). Los ríos corrieron a cada *na* (casa).",
+          "Desde entonces, los tseltal cuidan la *ha* (agua), agradeciendo al *ujkum* (arcoíris) por su regalo que da vida a su pueblo."
+        ]
+      },
+      "Status": "draft"
+    },
+    {
+      "ID": "687d9452c14c2860c6f5c846",
+      "Title": "Ajan y lo’bal (El maíz y los sueños)",
+      "Description": "Un mito tseltal sobre cómo los sueños trajeron el maíz.",
+      "Language": "tseltal",
+      "Category": "mito",
+      "ContentJSON": {
+        "parrafos": [
+          "En los tiempos antiguos, los tseltal soñaban en su *lo’bal* (sueño) con comida. Una noche, una estrella habló: ‘*K’an* (quieran) el *ajan* (maíz).’",
+          "En *jo’ib* (cinco) *lo’bal* (sueños), la estrella enseñó a sembrar *ajan* (mazorca). Los tseltal lo cocinaron en un *wuale’* (comal).",
+          "El *ajan* (maíz) creció en cada *be* (camino). Los tseltal agradecen al *lo’bal* (sueño) por el regalo del *ajan* (maíz)."
+        ]
+      },
+      "Status": "draft"
+    },
+    {
+      "ID": "687d946bc14c2860c6f5c847",
+      "Title": "Lo’bal y na (El tejedor de sueños)",
+      "Description": "Una historia tseltal sobre un tejedor que usa sueños para inspirar.",
+      "Language": "tseltal",
+      "Category": "histórico",
+      "ContentJSON": {
+        "parrafos": [
+          "En un pueblo tseltal, un tejedor vivía en una *na* (casa). En su *lo’bal* (sueño), veía telas con *chanib* (cuatro) colores que contaban historias.",
+          "El tejedor compartió su *lo’bal* (sueño) con su pueblo, tejiendo *oxom* (tamal) y flores. Todos lo admiraron por su *yal* (pequeña) pero poderosa visión.",
+          "Hoy, los tseltal recuerdan al tejedor, cuya *lo’bal* (sueño) unió a la comunidad con sus telas llenas de vida."
+        ]
+      },
+      "Status": "draft"
+    },
+    {
+      "ID": "687d9482c14c2860c6f5c848",
+      "Title": "Ajan y ha (La guardiana del maíz)",
+      "Description": "Una historia tseltal sobre una mujer que protege el maíz.",
+      "Language": "tseltal",
+      "Category": "histórico",
+      "ContentJSON": {
+        "parrafos": [
+          "Una mujer tseltal cuidaba el *ajan* (maíz) en su *na* (casa). Usaba una *tsek* (hacha) para preparar la tierra y pedía *ha* (agua) para sus cultivos.",
+          "Cuando extraños quisieron cambiar el *ajan* por semillas falsas, ella dijo: *K’an* (quiero) proteger nuestro *jo’ib* (cinco) tipos de *ajan* (maíz).",
+          "Con su *tsek* (hacha) y su valor, salvó el *ajan*. Los tseltal la recuerdan como la guardiana del *ajan* (maíz) y la *ha* (agua)."
+        ]
+      },
+      "Status": "draft"
+    }
+  ],
+  "Error": null
+}

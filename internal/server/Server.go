@@ -6,30 +6,31 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/tLALOck64/microservicio-cuentos/internal/story/infraestructure/http/routes"
+	questionRoutes "github.com/tLALOck64/microservicio-cuentos/internal/question/infraestructure/http/routes"
 )
 
 type Server struct {
-	engine *gin.Engine
-	host string
-	port string
+	engine   *gin.Engine
+	host     string
+	port     string
 	httpAddr string
 }
 
-func NewServer(host, port string) Server{
+func NewServer(host, port string) Server {
 	gin.SetMode(gin.ReleaseMode)
 
 	srv := Server{
-		engine: gin.New(),
-		host: host,
-		port: port,
+		engine:   gin.New(),
+		host:     host,
+		port:     port,
 		httpAddr: host + ":" + port,
 	}
 
 	srv.engine.Use(func(c *gin.Context) {
-		
-	if c.Request.Host != srv.httpAddr {
-		  c.AbortWithStatusJSON(http.StatusBadRequest, gin.H{"error": "Invalid host header"})
-		  return
+
+		if c.Request.Host != srv.httpAddr {
+			c.AbortWithStatusJSON(http.StatusBadRequest, gin.H{"error": "Invalid host header"})
+			return
 		}
 		c.Header("X-Frame-Options", "DENY")
 		c.Header("Content-Security-Policy", "default-src 'self'; connect-src *; font-src *; script-src-elem * 'unsafe-inline'; img-src * data:; style-src * 'unsafe-inline';")
@@ -47,19 +48,20 @@ func NewServer(host, port string) Server{
 
 	srv.engine.GET("ping", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
-			"message" : "pong!",
+			"message": "pong!",
 		})
 	})
 
 	storyRoute := srv.engine.Group("v1/story")
+	questionRoute := srv.engine.Group("v1/question")
 
 	routes.Routes(storyRoute)
-
+	questionRoutes.Routes(questionRoute)
 
 	return srv
 }
 
-func (s *Server) Run() error{
+func (s *Server) Run() error {
 	log.Println("Starting server on" + s.httpAddr)
 	return s.engine.Run(s.httpAddr)
 }

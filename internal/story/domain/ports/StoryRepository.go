@@ -6,4 +6,5 @@ type StoryRepository interface {
 	Create(story *entities.Story) (*entities.Story, error)
 	Get() ([]*entities.Story, error)
 	GetById(id string) (*entities.Story, error)
+	GetByCategory(category string) ([]*entities.Story, error)
 }

@@ -9,7 +9,6 @@ import (
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
-// StoryModel representa la estructura de un cuento en MongoDB
 type StoryModel struct {
 	ID          primitive.ObjectID     `bson:"_id,omitempty"`
 	Title       string                 `bson:"title"`
@@ -25,7 +24,6 @@ type StoryModel struct {
 
 // ToDomainStoryAggregate convierte el modelo MongoDB a agregado de dominio
 func (sm *StoryModel) ToDomainStoryAggregate() (*aggregates.StoryAggregate, error) {
-	// Convertir strings a value objects
 	language, err := valueobjects.NewLanguage(sm.Language)
 	if err != nil {
 		return nil, err
@@ -69,7 +67,6 @@ func (sm *StoryModel) ToDomainStoryAggregate() (*aggregates.StoryAggregate, erro
 		}
 	}
 
-	// Limpiar eventos ya que estamos reconstruyendo desde la base de datos
 	aggregate.ClearEvents()
 
 	return aggregate, nil
