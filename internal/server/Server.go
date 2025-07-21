@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/tLALOck64/microservicio-cuentos/internal/story/infraestructure/http/routes"
 	questionRoutes "github.com/tLALOck64/microservicio-cuentos/internal/question/infraestructure/http/routes"
+	"github.com/tLALOck64/microservicio-cuentos/internal/story/infraestructure/http/routes"
 )
 
 type Server struct {
@@ -32,6 +32,7 @@ func NewServer(host, port string) Server {
 			c.AbortWithStatusJSON(http.StatusBadRequest, gin.H{"error": "Invalid host header"})
 			return
 		}
+
 		c.Header("X-Frame-Options", "DENY")
 		c.Header("Content-Security-Policy", "default-src 'self'; connect-src *; font-src *; script-src-elem * 'unsafe-inline'; img-src * data:; style-src * 'unsafe-inline';")
 		c.Header("X-XSS-Protection", "1; mode=block")
