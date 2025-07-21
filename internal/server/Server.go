@@ -25,10 +25,16 @@ func NewServer(host, port string) Server {
 		port:     port,
 		httpAddr: host + ":" + port,
 	}
+	allowedHosts := map[string]bool{
+		"localhost:3001":              true,
+		"localhost:3000":              true,
+		"micro-story.nativox.lat":     true,
+		"micro-story.nativox.lat:443": true,
+	}
 
 	srv.engine.Use(func(c *gin.Context) {
 
-		if c.Request.Host != srv.httpAddr {
+		if !allowedHosts[c.Request.Host] {
 			c.AbortWithStatusJSON(http.StatusBadRequest, gin.H{"error": "Invalid host header"})
 			return
 		}
