@@ -5,6 +5,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+	"github.com/tLALOck64/microservicio-cuentos/internal/config"
 	questionRoutes "github.com/tLALOck64/microservicio-cuentos/internal/question/infraestructure/http/routes"
 	"github.com/tLALOck64/microservicio-cuentos/internal/story/infraestructure/http/routes"
 )
@@ -51,6 +52,7 @@ func NewServer(host, port string) Server {
 
 	srv.engine.Use(gin.Recovery())
 	srv.engine.Use(gin.Logger())
+	srv.engine.Use(config.ConfigurationCors())
 	srv.engine.RedirectTrailingSlash = true
 
 	srv.engine.GET("ping", func(c *gin.Context) {
